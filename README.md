@@ -62,6 +62,10 @@ python main.py --file <path_to_emg_csv> [--fs 250] [--cutoff 5.0] [--std 2.0] [-
 | `--gap`     | Max gap for segment merging (samples) | 4000 |
 | `--save`    | Directory to save output figures   | None    |
 
+## Note
+
+The EMG dataset used in this project was provided by a partnering company through the NIMS workshop and is not included in this repository due to confidentiality.
+
 ## Key Approach
 
 - **Hilbert Transform Envelope**: Instead of simple rectification + moving average, the Hilbert transform provides a smooth, physically meaningful amplitude envelope that better captures the instantaneous energy of muscle contractions.
